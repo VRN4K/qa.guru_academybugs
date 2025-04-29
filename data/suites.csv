@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4063","Ошибка при переходе в Твиттер","chromium","Tue Apr 29 12:29:06 GMT 2025","passed","Tue Apr 29 12:29:10 GMT 2025","Карточка товара","findBugs.spec.js","",""
+"","4007","Описание товара не на английском языке","chromium","Tue Apr 29 12:28:53 GMT 2025","passed","Tue Apr 29 12:28:57 GMT 2025","Карточка товара","findBugs.spec.js","",""
+"","5584","Ошибка 404 при переходе на страницу производителя","chromium","Tue Apr 29 12:29:00 GMT 2025","passed","Tue Apr 29 12:29:06 GMT 2025","Карточка товара","findBugs.spec.js","",""
+"","2342","Описание товара не на английском языке","chromium","Tue Apr 29 12:28:51 GMT 2025","passed","Tue Apr 29 12:28:53 GMT 2025","Главная страница","findBugs.spec.js","",""
+"","2782","Ошибка при размещении комментария","chromium","Tue Apr 29 12:28:57 GMT 2025","passed","Tue Apr 29 12:29:00 GMT 2025","Карточка товара","findBugs.spec.js","",""
