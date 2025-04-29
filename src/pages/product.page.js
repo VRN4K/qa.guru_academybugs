@@ -6,7 +6,7 @@ export class ProductPage {
         this.websiteField = page.getByRole('textbox', { name: 'Website' });
         this.postCommentButton = page.getByRole('button', { name: 'Post Comment' });
         this.manufacturerLink = page.locator('div.ec_details_manufacturer a');
-        this.description = page.locator('div.ec_details_description').getByText('Nam nec tellus a odio').nth(1);
+        this.description = page.locator('div.ec_details_description').getByText('Nam nec tellus a odio');
         this.twitterIcon = page.getByRole('link', { name: 'X', exact: true });
     }
     async clickOnProductDescription() {
