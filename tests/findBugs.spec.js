@@ -7,7 +7,7 @@ test.use({storageState: {cookies: [], origins: []}});
 
 test.describe('Главная страница', () => {
 
-    test('Описание товара не на английском языке', async ({webApp}) => {
+    test('Ошибка при переходе на следующую страницу', async ({webApp}) => {
         await webApp.main.clickNextPaginationPage();
         await expect(webApp.main.crashBugOverlay).toContainText(errorMessages.CRASH_ERROR_MESSAGE);
     });

@@ -17,8 +17,6 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-#    env:
-#      BASE_URL: ${{ secrets.BASE_URL }}
     steps:
       # Получаем код
       - uses: actions/checkout@v4

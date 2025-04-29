@@ -2,7 +2,7 @@ export class MainPage {
     constructor(page) {
         this.page = page;
         this.paginationButton = page.getByRole('link', { name: '50' });
-        this.selectOptionsButton = page.locator('#ec_product_image_3981370').getByRole('link', { name: 'Select Options' });
+        this.selectOptionsButton = page.locator('#ec_product_image_effect_4481370');
         this.bugPopup = page.locator('#bug-popup');
         this.crashBugOverlay = page.locator('html');
     }
